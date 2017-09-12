@@ -27,3 +27,7 @@ body {
   display: block;
   width: 100%;
 }
+nav,
+  a {
+    text-decoration: underline;
+  }
