@@ -20,7 +20,13 @@ body {
   display: block;
   width: 100%;
 }
+
+h1 {
+  text-align: center;
+}
+
 nav,
-  a {
-    text-decoration: underline;
-  }
+a {
+  text-decoration: underline;
+  color: #b64c6e;
+}
