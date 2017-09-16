@@ -5,7 +5,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans Japanese', sans-serif;
 }
 
 *, *::before, *::after {
@@ -35,8 +35,17 @@ a {
   color: #b64c6e;
 }
 
-blockquote {
-  border: 1px solid #e2e2e2;
+.btn {
+  background-color: none;
+}
+
+.btn:hover {
+  background-color: #860927;
+}
+
+.quote {
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 .btn {
