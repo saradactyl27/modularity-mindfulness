@@ -1,24 +1,9 @@
 html {
-  box-sizing: border-box;
-
-  font-family: 'Noto Sans', sans-serif;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
+  font-family: "Noto Sans", sans-serif;
 }
 
 main {
   border-bottom: 1px solid #e2e2e2;
-}
-
-.img-flex {
-  display: block;
-  width: 100%;
 }
 
 .font-ja {
