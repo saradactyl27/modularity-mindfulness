@@ -16,15 +16,15 @@ h1 {
 
 nav,
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #b64c6e;
 }
 
-.btn-ghost {
-  background-color: #f2f2f2;
+a {
+  border-bottom: 1px solid #b64c6e;
 }
 
-a:hover {
+.btn-ghost:hover {
   background-color: #d89fb0;
   border: #d89fb0;
 }
