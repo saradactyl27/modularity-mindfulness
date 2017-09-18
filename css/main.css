@@ -1,11 +1,7 @@
 html {
   box-sizing: border-box;
 
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  font-family: 'Noto Sans Japanese', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 *, *::before, *::after {
@@ -25,6 +21,10 @@ main {
   width: 100%;
 }
 
+.font-ja {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
 h1 {
   text-align: center;
 }
@@ -35,7 +35,7 @@ a {
   color: #b64c6e;
 }
 
-.btn {
+.btn-ghost {
   background-color: #f2f2f2;
 }
 
