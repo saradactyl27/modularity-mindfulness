@@ -39,7 +39,6 @@ a {
   border-bottom: 2px solid #e2e2e2;
 }
 
-
 .btn-ghost {
   color: #b64c6e;
   border-color: #d89fb0;
@@ -49,4 +48,21 @@ a {
 .section-img {
   height: 100%;
   overflow: hidden;
+}
+
+@media only screen and (min-width: 60em) {
+
+  blockquote {
+    width: 25em;
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+    padding-top: 2em;
+  }
 }
