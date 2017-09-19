@@ -24,6 +24,12 @@ a {
   border-bottom: 1px solid #b64c6e;
 }
 
+a,
+a:hover {
+  background-color: #860927;
+  color: #e2e2e2;
+}
+
 .btn-ghost:hover {
   background-color: #b64c6e;
   border: #b64c6e;
