@@ -25,16 +25,22 @@ a {
 }
 
 .btn-ghost:hover {
-  background-color: #d89fb0;
-  border: #d89fb0;
+  background-color: #b64c6e;
+  border: #b64c6e;
 }
 
 .quote {
-  border-top: 1px solid #e2e2e2;
-  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
 }
 
 .btn {
   color: #b64c6e;
-  border-color: #b64c6e;
+  border-color: #d89fb0;
+  border: 2px solid #d89fb0;
+}
+
+.section-img {
+  height: 100%;
+  overflow: hidden;
 }
