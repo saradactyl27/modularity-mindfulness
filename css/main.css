@@ -50,12 +50,12 @@ a {
   overflow: hidden;
 }
 
-@media only screen and (min-width: 60em) {
+blockquote {
+  max-width: 25em;
+  margin: 0 auto;
+}
 
-  blockquote {
-    width: 25em;
-    margin: 0 auto;
-  }
+@media only screen and (min-width: 60em) {
 
   h1 {
     text-align: left;
